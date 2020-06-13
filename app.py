@@ -35,8 +35,8 @@ app.layout = html.Div([
         ])
         
 
-app.scripts.config.serve_locally = True
+
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
